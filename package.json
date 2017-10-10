@@ -1,6 +1,6 @@
 {
   "name": "react-stretchy-header",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stretchy image-header for react, like that seen on ios",
   "main": "build/index.js",
   "scripts": {
