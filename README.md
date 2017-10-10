@@ -45,7 +45,7 @@ const App = () => (<div>
             <td>onScroll</td>
             <td>func</td>
             <td>false</td>
-            <td>e &#x3D;&gt; {}</td>
+            <td>scrollTop &#x3D;&gt; {}</td>
             <td>called with param scrollTop on scroll</td>
         </tr>
         <tr>
