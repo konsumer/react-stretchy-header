@@ -24,7 +24,7 @@ const App = () => (<div>
 
 ```
 
-![action on iOS](action.gif)
+![action on iOS](https://github.com/konsumer/react-stretchy-header/raw/master/action.gif)
 
 ## thanks
 
