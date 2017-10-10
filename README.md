@@ -52,7 +52,7 @@ const App = () => (<div>
             <td>height</td>
             <td>number</td>
             <td>false</td>
-            <td>200</td>
+            <td>300</td>
             <td>height of the image</td>
         </tr>
         <tr>
