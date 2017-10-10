@@ -2,7 +2,7 @@
 
 A stretchy image-header for react (DOM), like that seen on ios-native.
 
-There is a demo [here](), but you'll need to view it on iphone to see the effect.
+There is a demo [here](http://konsumer.js.org/react-stretchy-header/), but you'll need to view it on iphone to see the effect.
 
 
 ## usage

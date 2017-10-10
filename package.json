@@ -11,17 +11,7 @@
     "build-storybook": "build-storybook",
     "prepublish": "npm run build",
     "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf build README.md src build package.json package-lock.json",
-    "gh-pages-deploy": {
-    "staticpath": "storybook-static",
-    "prep": [
-      "build-storybook"
-    ],
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
-  }
+    "clean-source": "rimraf build README.md src build package.json package-lock.json"
   },
   "repository": {
     "type": "git",
@@ -66,5 +56,15 @@
       "transform-object-rest-spread",
       "transform-react-jsx"
     ]
+  },
+  "gh-pages-deploy": {
+    "staticpath": "storybook-static",
+    "prep": [
+      "build-storybook"
+    ],
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
   }
 }
