@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+/** Props */
 export class StretchyHeader extends Component {
   constructor (props) {
     super(props)
@@ -56,16 +57,16 @@ export class StretchyHeader extends Component {
 }
 
 StretchyHeader.propTypes = {
-  /** called with param scrollTop on scroll **/
+  /** called with param scrollTop on scroll */
   onScroll: PropTypes.func,
 
-  /** height of the image **/
+  /** height of the image */
   height: PropTypes.number,
 
-  /** URL of the image **/
+  /** URL of the image */
   image: PropTypes.string,
 
-  /** className(s) for this component **/
+  /** className(s) for this component */
   className: PropTypes.string
 }
 
