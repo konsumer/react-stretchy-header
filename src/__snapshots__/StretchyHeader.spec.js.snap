@@ -1,7 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots StretchyHeader usage 1`] = `
-<div>
-  STRETCHY
+<div
+  style={
+    Object {
+      "WebkitTransform": "translate3d(0,0,0)",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundImage": "url(http://lorempixel.com/600/300/transport/)",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "cover",
+        "left": 0,
+        "minHeight": 200,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "font": "18px Optima, Segoe, \\"Segoe UI\\", Candara, Calibri, Arial, sans-serif",
+        "padding": 10,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <p>
+      Eiusmod shoreditch excepteur, heirloom consequat thundercats ut lorem pork belly umami cillum cornhole intelligentsia est retro.  Sartorial celiac woke wayfarers 8-bit esse literally.  Intelligentsia blue bottle pickled vice freegan.  Copper mug vaporware crucifix kickstarter hashtag.  Elit YOLO af, four dollar toast man braid la croix tilde pour-over.  Tumeric tattooed vape do, magna PBR&B banh mi truffaut occupy banjo adaptogen ipsum.  Pork belly cornhole umami occupy id portland small batch bespoke gastropub veniam DIY tbh.  Kombucha vaporware hashtag try-hard.  Locavore consectetur cred, ut jianbing tofu cold-pressed hell of gluten-free.  Literally nisi green juice butcher, af meggings waistcoat fashion axe occupy ramps plaid selfies duis pok pok.
+    </p>
+    <p>
+      Deserunt anim VHS banh mi aliquip marfa hashtag plaid aute slow-carb raw denim four loko.  Brunch selvage tumblr slow-carb, literally pork belly hexagon incididunt bicycle rights.  Narwhal locavore authentic hoodie ad echo park brooklyn af consectetur mollit cray eu bicycle rights letterpress.  Blog farm-to-table listicle ennui intelligentsia put a bird on it.  Pariatur disrupt retro butcher, DIY air plant narwhal.  Leggings mumblecore tumblr synth ullamco next level minim.  Pitchfork art party kitsch la croix, ut XOXO laboris aesthetic cronut authentic austin.  Succulents lumbersexual palo santo, edison bulb ut shoreditch fixie twee viral vice lomo dolor brunch hashtag hella.  DIY hashtag duis shoreditch kitsch echo park.  Hella twee aesthetic beard next level, pickled dolor fam kitsch normcore.  Swag organic magna, vape yuccie quinoa poke microdosing readymade coloring book in DIY adipisicing.  Aesthetic cronut aliqua godard, normcore eiusmod knausgaard helvetica exercitation thundercats.  Iceland sriracha butcher hammock commodo gochujang knausgaard irony single-origin coffee.  Put a bird on it squid lumbersexual organic hoodie deep v seitan pork belly tbh consectetur.
+    </p>
+    <p>
+      Palo santo dolore vape, eu eiusmod chartreuse hoodie locavore nulla chia iceland irony af XOXO plaid.  Activated charcoal small batch blue bottle hell of chartreuse, letterpress enim enamel pin coloring book post-ironic officia gentrify cray.  Marfa before they sold out vexillologist cred aesthetic chicharrones bushwick artisan elit health goth excepteur copper mug bitters.  Shaman squid esse, green juice twee selfies bicycle rights art party.  Cornhole ennui cliche viral in mlkshk.  Chicharrones pickled esse vexillologist, roof party meggings flexitarian incididunt kogi duis hexagon commodo velit kickstarter.  Next level YOLO activated charcoal quinoa gastropub pitchfork nulla.  Squid exercitation kombucha, man braid succulents retro wayfarers shabby chic keffiyeh yr everyday carry brooklyn.  Biodiesel viral ugh, taiyaki man bun cardigan adaptogen ad copper mug beard occaecat echo park nulla.  Authentic tempor affogato godard hammock.
+    </p>
+    <p>
+      Taxidermy actually tbh, helvetica kogi irony roof party whatever.  Af schlitz ullamco anim blue bottle intelligentsia in vegan.  Lumbersexual fashion axe mustache authentic vegan farm-to-table.  Enamel pin mumblecore ennui activated charcoal, you probably haven't heard of them sunt YOLO.  Magna scenester brooklyn vice live-edge.  Hammock gluten-free prism poke mumblecore af cred.  Authentic blue bottle actually, aute mlkshk pork belly messenger bag vinyl sint excepteur commodo.  Kinfolk nisi microdosing, irony ugh paleo pariatur ipsum coloring book echo park ethical mixtape.  Four loko selvage pickled tumeric YOLO.  Celiac whatever paleo gentrify dolore.  Fanny pack vape minim 8-bit austin mlkshk man bun commodo air plant.  Skateboard sartorial pug lorem.
+    </p>
+    <p>
+      Succulents roof party banjo, poke fingerstache ullamco man bun leggings master cleanse sriracha in et tbh.  Cillum man braid disrupt glossier stumptown do roof party.  Hexagon pabst artisan, kinfolk crucifix lorem green juice chicharrones taiyaki literally.  Woke offal non, lomo tote bag williamsburg hella meh 8-bit enamel pin farm-to-table retro hoodie.  Roof party mumblecore cloud bread fingerstache gastropub jean shorts skateboard umami tbh, banjo vape meditation sriracha pitchfork.  Meditation minim celiac jean shorts live-edge humblebrag migas magna tumblr excepteur bitters.  Deserunt ethical qui poutine church-key beard single-origin coffee blue bottle next level tumeric bicycle rights art party street art.  Swag lomo PBR&B, 3 wolf moon listicle gluten-free nisi.  Viral nostrud chicharrones laborum distillery.  Shaman meh dolore esse cloud bread four dollar toast irure williamsburg.  Street art enamel pin marfa letterpress, narwhal tbh pork belly palo santo freegan irure salvia beard swag.  Man braid drinking vinegar put a bird on it enim mollit asymmetrical ennui.
+    </p>
+  </div>
 </div>
 `;
