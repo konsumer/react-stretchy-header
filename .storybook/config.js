@@ -5,7 +5,7 @@ setOptions({
   name: 'Storybook',
   url: 'https://github.com/konsumer/react-stretchy-header',
   goFullScreen: false,
-  showLeftPanel: false,
+  showLeftPanel: true,
   showDownPanel: false,
   showSearchBox: false,
   downPanelInRight: false,
