@@ -48,7 +48,7 @@ export class StretchyHeader extends Component {
     const header = { ...this.state.styles.header }
     if (scrollTop <= 0) {
       header.height =
-        (Math.abs(scrollTop) / this.state.imageHeight + 1) *
+        ((Math.abs(scrollTop) / this.state.imageHeight) + 1) *
         this.state.imageHeight
       header.transform = `translateY(${scrollTop}px)`
     }
