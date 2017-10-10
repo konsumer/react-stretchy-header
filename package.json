@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook",
     "prepublish": "npm run build",
     "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf build README.md src build package.json package-lock.json"
+    "_clean": "rimraf README.md coverage/ node_modules/ package-lock.json package.json src/ storybook-static/ webpack.config.babel.js"
   },
   "repository": {
     "type": "git",
@@ -63,8 +63,8 @@
       "build-storybook"
     ],
     "post": [
-      "clean-source"
+      "_clean"
     ],
-    "noprompt": false
+    "noprompt": true
   }
 }
