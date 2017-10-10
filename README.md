@@ -21,12 +21,7 @@ const App = () => (<div>
     <div>CONTENT GOES HERE</div>
   <StretchyHeader>
 </div>)
-
 ```
-
-![action on iOS](https://github.com/konsumer/react-stretchy-header/raw/master/action.gif)
-
-<small>This looks more jerky than it is.</small>
 
 <!-- react-component-api -->
 #### Props
@@ -72,6 +67,10 @@ const App = () => (<div>
 </tbody>
 </table>
 <!-- react-component-api:end -->
+
+![action on iOS](https://github.com/konsumer/react-stretchy-header/raw/master/action.gif)
+
+<small>This looks more jerky than it is.</small>
 
 ## thanks
 
