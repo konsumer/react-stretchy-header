@@ -24,6 +24,8 @@ const App = () => (<div>
 
 ```
 
+![action on iOS](action.gif)
+
 ## thanks
 
 I got a lot of ideas from [here](http://rich.k3r.me/blog/2016/04/11/stretchy-image-headers-in-cordova/).
