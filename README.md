@@ -26,6 +26,8 @@ const App = () => (<div>
 
 ![action on iOS](https://github.com/konsumer/react-stretchy-header/raw/master/action.gif)
 
+<small>This looks more jerky than it is.</small>
+
 ## thanks
 
 I got a lot of ideas from [here](http://rich.k3r.me/blog/2016/04/11/stretchy-image-headers-in-cordova/).
