@@ -1,27 +1,5 @@
 import React, { Component } from 'react'
-
-export class PageScroll extends Component {
-  constructor (props) {
-    super(props)
-    this.onScroll = this.onScroll.bind(this)
-  }
-
-  onScroll (e) {
-    this.props.onScroll(e.target.scrollingElement.scrollTop)
-  }
-
-  componentDidMount () {
-    window.addEventListener('scroll', this.onScroll)
-  }
-
-  componentWillUnmount () {
-    window.removeEventListener('scroll', this.onScroll)
-  }
-
-  render () {
-    return this.props.children
-  }
-}
+import PropTypes from 'prop-types'
 
 export class StretchyHeader extends Component {
   constructor (props) {
@@ -38,13 +16,15 @@ export class StretchyHeader extends Component {
           position: 'absolute',
           top: 0,
           left: 0
-        }
+        },
+        ...props.style
       },
       imageHeight: props.height
     }
   }
 
-  onScroll (scrollTop) {
+  onScroll (e) {
+    const scrollTop = e.target.scrollingElement.scrollTop
     const header = { ...this.state.styles.header }
     if (scrollTop <= 0) {
       header.height =
@@ -53,19 +33,47 @@ export class StretchyHeader extends Component {
       header.transform = `translateY(${scrollTop}px)`
     }
     this.setState({ styles: { ...this.state.styles, header } })
+    this.props.onScroll(scrollTop)
+  }
+
+  componentDidMount () {
+    window.addEventListener('scroll', this.onScroll)
+  }
+
+  componentWillUnmount () {
+    window.removeEventListener('scroll', this.onScroll)
   }
 
   render () {
     return (
-      <PageScroll onScroll={this.onScroll}>
-        <div style={{ WebkitTransform: 'translate3d(0,0,0)' }}>
-          <div style={this.state.styles.header} />
-          <div style={{ height: this.state.imageHeight }} />
-          {this.props.children}
-        </div>
-      </PageScroll>
+      <div className={this.props.className} style={{ WebkitTransform: 'translate3d(0,0,0)' }}>
+        <div style={this.state.styles.header} />
+        <div style={{ height: this.state.imageHeight }} />
+        {this.props.children}
+      </div>
     )
   }
+}
+
+StretchyHeader.propTypes = {
+  /** called with param scrollTop on scroll **/
+  onScroll: PropTypes.func,
+
+  /** height of the image **/
+  height: PropTypes.number,
+
+  /** URL of the image **/
+  image: PropTypes.string,
+
+  /** className(s) for this component **/
+  className: PropTypes.string
+}
+
+StretchyHeader.defaultProps = {
+  onScroll: e => {},
+  height: 200,
+  image: 'http://loremflickr.com/200/800/cat',
+  className: 'StretchyHeader'
 }
 
 export default StretchyHeader
