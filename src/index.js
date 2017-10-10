@@ -73,7 +73,7 @@ StretchyHeader.propTypes = {
 StretchyHeader.defaultProps = {
   onScroll: scrollTop => {},
   height: 200,
-  image: 'http://loremflickr.com/200/800/cat',
+  image: 'http://loremflickr.com/800/200/cat',
   className: 'StretchyHeader'
 }
 
