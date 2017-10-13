@@ -2,6 +2,7 @@
 
 exports[`Storyshots StretchyHeader usage 1`] = `
 <div
+  className="StretchyHeader"
   style={
     Object {
       "WebkitTransform": "translate3d(0,0,0)",
@@ -11,11 +12,11 @@ exports[`Storyshots StretchyHeader usage 1`] = `
   <div
     style={
       Object {
-        "backgroundImage": "url(http://lorempixel.com/600/300/transport/)",
+        "backgroundImage": "url(http://loremflickr.com/800/300/cat)",
         "backgroundPosition": "50% 50%",
         "backgroundSize": "cover",
         "left": 0,
-        "minHeight": 200,
+        "minHeight": 300,
         "position": "absolute",
         "top": 0,
         "width": "100%",
@@ -25,7 +26,7 @@ exports[`Storyshots StretchyHeader usage 1`] = `
   <div
     style={
       Object {
-        "height": 200,
+        "height": 300,
       }
     }
   />

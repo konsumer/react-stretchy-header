@@ -13,14 +13,17 @@ export class StretchyHeader extends Component {
           width: '100%',
           backgroundPosition: '50% 50%',
           backgroundSize: 'cover',
-          backgroundImage: `url(${props.image})`,
           position: 'absolute',
           top: 0,
           left: 0
         },
         ...props.style
       },
-      imageHeight: props.height
+      imageHeight: props.image ? props.height : 0
+    }
+
+    if (props.image) {
+      this.state.styles.header.backgroundImage = `url(${props.image})`
     }
   }
 
@@ -73,7 +76,6 @@ StretchyHeader.propTypes = {
 StretchyHeader.defaultProps = {
   onScroll: scrollTop => {},
   height: 300,
-  image: 'http://loremflickr.com/800/300/cat',
   className: 'StretchyHeader'
 }
 

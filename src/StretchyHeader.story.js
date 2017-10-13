@@ -15,7 +15,7 @@ const HipsterIpsum = () => (
 
 storiesOf('StretchyHeader', module)
   .add('usage', () => (
-    <StretchyHeader>
+    <StretchyHeader image={'http://loremflickr.com/800/300/cat'}>
       <HipsterIpsum />
     </StretchyHeader>
   ))
