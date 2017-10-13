@@ -54,7 +54,7 @@ const App = () => (<div>
             <td>image</td>
             <td>string</td>
             <td>false</td>
-            <td>&#x27;http://loremflickr.com/800/300/cat&#x27;</td>
+            <td></td>
             <td>URL of the image</td>
         </tr>
         <tr>
